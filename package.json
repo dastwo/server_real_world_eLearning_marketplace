@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1301.0",
+    "bcrypt": "^5.1.0",
+    "buffer": "^6.0.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-jwt": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0",
+    "nanoid": "^2.1.11",
+    "node-fetch": "^2.6.1",
+    "query-string": "^8.1.0",
+    "slugify": "^1.6.5",
+    "stripe": "^11.8.0"
+  }
+}
